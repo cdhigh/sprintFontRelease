@@ -1,0 +1,17 @@
+{
+  "lastest": "1.1",
+  "history": [
+    {
+      "version": "1.1",
+      "build": "2022-05-25",
+      "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.1/sprintFont_v1.1.rar",
+      "whatsnew": "1. Import footprint from Kicad/EasyEDA.\n2. Insert svg image"
+    },
+    {
+      "version": "1.0",
+      "build": "2022-05-15",
+      "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.1/sprintFont_v1.0.rar",
+      "whatsnew": "1. Insert text in other fonts into Sprint-Layout"
+    }
+  ]
+}
