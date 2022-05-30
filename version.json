@@ -1,6 +1,12 @@
 {
-  "lastest": "1.1",
+  "lastest": "1.2",
   "history": [
+    {
+      "version": "1.2",
+      "build": "2022-05-30",
+      "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.2/sprintFont_v1.2.rar",
+      "whatsnew": "1. Insert Qrcode"
+    },
     {
       "version": "1.1",
       "build": "2022-05-25",
@@ -10,7 +16,7 @@
     {
       "version": "1.0",
       "build": "2022-05-15",
-      "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.1/sprintFont_v1.0.rar",
+      "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.0/sprintFont_v1.0.rar",
       "whatsnew": "1. Insert text in other fonts into Sprint-Layout"
     }
   ]
