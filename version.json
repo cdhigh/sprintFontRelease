@@ -1,6 +1,12 @@
 {
-  "lastest": "1.2",
+  "lastest": "1.3",
   "history": [
+    {
+      "version": "1.3",
+      "build": "2022-06-12",
+      "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.3/sprintFont_v1.3.rar",
+      "whatsnew": "1. Added auto-routing (use Freerouting as auto-router)\n2. Added support for ttc/otc font format\n3. Some minor optimizations"
+    },
     {
       "version": "1.2",
       "build": "2022-05-30",
