@@ -1,7 +1,7 @@
 # sprintFont manual
 sprintFont is a plugin for Sprint-Layout v6 2021 and newer version.   
 
-for version: v1.3
+for version: v1.4
 
 
 
@@ -11,6 +11,7 @@ for version: v1.3
 * Insert the SVG image
 * Insert Qrcode
 * Supports auto-routing
+* Add teardrop pads
 
 
 
@@ -217,8 +218,37 @@ The solution is the same as Kicad, divided into three steps:
 
 
 
+### 2.6 Teardrop pads
+
+The algorithm of teardrop pads is from <https://github.com/NilujePerchut/kicad_scripts>, thanks in advance.
+
+![teardrop_main](pic/teardrop_main.png)
+
+
+
+
+#### 2.6.1 Basic operation
+1. If deselect all elements in Sprint-Layout before executing this plugin, teardrop will be applied to all THT pads. If only some pads need to be added teardrops, you can select the both pads and tracks you need firstly. Deleting teardrops is the same logical, you can delete all teardrops or only those in the selected region.
+2. By the legend in the GUI, it should be easier to understand the meaning of the three parameters. The base of the percentage is the outer diameter of the pad.
+
+![teardrops](pic/teardrops.png)
+
+
+
+#### 2.6.2 Details
+* thermal pads will not be processed.
+* If the teardrop parameters are the same, the teardrop pad will not be added repeatedly. but if the parameters are different, multiple operations may add some overlapping teardrop pads.
+
+
+
+
 
 ## 3. Changelog
+
+
+
+### v1.4
+* Added teardrop pads
 
 
 

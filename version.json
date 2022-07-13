@@ -1,6 +1,12 @@
 {
-  "lastest": "1.3",
+  "lastest": "1.4",
   "history": [
+    {
+      "version": "1.4",
+      "build": "2022-07-13",
+      "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.4/sprintFont_v1.4.zip",
+      "whatsnew": "1. Added Teardrop pads"
+    },
     {
       "version": "1.3",
       "build": "2022-06-12",
