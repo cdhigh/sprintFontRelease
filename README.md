@@ -1,7 +1,7 @@
 # sprintFont manual
 sprintFont is a plugin for Sprint-Layout v6 2021 and newer version.   
 
-for version: v1.4
+for version: v1.5
 
 
 
@@ -12,6 +12,7 @@ for version: v1.4
 * Insert Qrcode
 * Supports auto-routing
 * Add teardrop pads
+* Rounded-tracks
 
 
 
@@ -222,8 +223,7 @@ The solution is the same as Kicad, divided into three steps:
 
 The algorithm of teardrop pads is from <https://github.com/NilujePerchut/kicad_scripts>, thanks in advance.
 
-![teardrop_main](pic/teardrop_main.png)
-
+![teardrops](pic/teardrops.png)
 
 
 
@@ -231,7 +231,7 @@ The algorithm of teardrop pads is from <https://github.com/NilujePerchut/kicad_s
 1. If deselect all elements in Sprint-Layout before executing this plugin, teardrop will be applied to all THT pads. If only some pads need to be added teardrops, you can select the both pads and tracks you need firstly. Deleting teardrops is the same logical, you can delete all teardrops or only those in the selected region.
 2. By the legend in the GUI, it should be easier to understand the meaning of the three parameters. The base of the percentage is the outer diameter of the pad.
 
-![teardrops](pic/teardrops.png)
+![teardrop_main](pic/teardrop_main.png)
 
 
 
@@ -243,7 +243,40 @@ The algorithm of teardrop pads is from <https://github.com/NilujePerchut/kicad_s
 
 
 
+### 2.7 Rounded-track
+This function can convert ordinary tracks of various angles into rounded tracks, which is very suitable for high-frequency circuits and audio circuits.
+
+![rounded_track](pic/rounded_track.png)
+
+
+
+
+#### 2.7.1 Basic operation
+1. If deselect all elements in Sprint-Layout before executing this plugin, all tracks will be converted to rounded-tracks if it can be. If only some tracks need to be converted, you can select the tracks you need firstly. 
+2. The plugin supports three ways to convert rounded tracks:
+    * Tangent arc: The two points at the specified distance from the turning point of the route are the starting point and the end point of the arc, and the arc is tangent to the two segments of the track.
+    * Three-point arc: The arc is drawn according to every three consecutive points, and the three points are all on the arc.
+    * Bezier curve: The first point is the starting point, the third one is the end point, the intersection of the two segments of track is the control point, and a Bezier curve is drawn by these three points.
+
+![rounded_track_main](pic/rounded_track_main.png)
+
+
+
+
+#### 2.7.2 Details
+1. If a track has many turns, the plugin will try to convert it into several arcs every 3 points from the starting point. If some points do not meet the conditions, the plugin will skip them and continue to find a suitable point.
+2. The points on the tracks covered by pads or polygons of the same layer are considered as points that do not meet condition of the arc conversion, but you need to select the corresponding pads and polygons at the same time, because the plugin known nothing beside your selection range.
+
+
+
+
+
 ## 3. Changelog
+
+
+
+### v1.5
+* Convert tracks to Rounded-tracks
 
 
 

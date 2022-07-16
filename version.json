@@ -1,6 +1,12 @@
 {
-  "lastest": "1.4",
+  "lastest": "1.5",
   "history": [
+    {
+      "version": "1.5",
+      "build": "2022-07-16",
+      "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.5/sprintFont_v1.5.zip",
+      "whatsnew": "1. Added Rounded-tracks"
+    },
     {
       "version": "1.4",
       "build": "2022-07-13",
