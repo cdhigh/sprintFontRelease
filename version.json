@@ -1,6 +1,12 @@
 {
-  "lastest": "1.5",
+  "lastest": "1.5.1",
   "history": [
+    {
+      "version": "1.5.1",
+      "build": "2022-08-07",
+      "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.5.1/sprintFont_v1.5.1.zip",
+      "whatsnew": "1. Rounded-tracks has two distances, if the big one is not suitable, the small one will be applied"
+    },
     {
       "version": "1.5",
       "build": "2022-07-16",

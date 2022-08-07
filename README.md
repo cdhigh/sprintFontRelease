@@ -1,7 +1,7 @@
 # sprintFont manual
 sprintFont is a plugin for Sprint-Layout v6 2021 and newer version.   
 
-for version: v1.5
+for version: v1.5.1
 
 
 
@@ -12,7 +12,7 @@ for version: v1.5
 * Insert Qrcode
 * Supports auto-routing
 * Add teardrop pads
-* Rounded-tracks
+* Rounded-tracks feature
 
 
 
@@ -254,7 +254,7 @@ This function can convert ordinary tracks of various angles into rounded tracks,
 #### 2.7.1 Basic operation
 1. If deselect all elements in Sprint-Layout before executing this plugin, all tracks will be converted to rounded-tracks if it can be. If only some tracks need to be converted, you can select the tracks you need firstly. 
 2. The plugin supports three ways to convert rounded tracks:
-    * Tangent arc: The two points at the specified distance from the turning point of the route are the starting point and the end point of the arc, and the arc is tangent to the two segments of the track.
+    * Tangent arc: The two points at the specified distance from the turning point of the route are the starting point and the end point of the arc, and the arc is tangent to the two segments of the track. There are two distances, if the big one is not suitable for short tracks, the small one will be applied.
     * Three-point arc: The arc is drawn according to every three consecutive points, and the three points are all on the arc.
     * Bezier curve: The first point is the starting point, the third one is the end point, the intersection of the two segments of track is the control point, and a Bezier curve is drawn by these three points.
 
@@ -272,6 +272,11 @@ This function can convert ordinary tracks of various angles into rounded tracks,
 
 
 ## 3. Changelog
+
+
+
+### v1.5.1
+* Rounded-tracks has two distances, if the big one is not suitable, the small one will be applied
 
 
 
