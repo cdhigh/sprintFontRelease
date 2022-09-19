@@ -270,8 +270,17 @@ This function can convert ordinary tracks of various angles into rounded tracks,
 
 
 
+## 3. Others
+1. If the plug-in cannot be loaded, please download and install the VC runtime library 2015/2017/2019/2022 (any one). If it still does not work, you may also need "Universal C Runtime for Windows". You can search it for links, or just use links below:   
+* [VC runtime x86](https://aka.ms/vs/17/release/vc_redist.x86.exe)
+* [VC runtime x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+* [Universal C Runtime](https://support.microsoft.com/en-us/topic/update-for-universal-c-runtime-in-windows-c0514201-7fe6-95a3-b0a5-287930f3560c)
 
-## 3. Changelog
+
+
+
+
+## 4. Changelog
 
 
 
