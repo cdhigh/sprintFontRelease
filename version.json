@@ -1,6 +1,12 @@
 {
-  "lastest": "1.5.1",
+  "lastest": "1.5.2",
   "history": [
+    {
+      "version": "1.5.2",
+      "build": "2022-10-22",
+      "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.5.2/sprintFont_v1.5.2.rar",
+      "whatsnew": "1. Add name property for all elements (ready for Sprint-Layout 08.07.2022)\n2. support user fonts in Windows10\n3. fix render problem for kaiti_GB2312"
+    },
     {
       "version": "1.5.1",
       "build": "2022-08-07",
