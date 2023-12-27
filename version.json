@@ -1,6 +1,12 @@
 {
-  "lastest": "1.5.2",
+  "lastest": "1.5.3",
   "history": [
+    {
+      "version": "1.5.3",
+      "build": "2023-12-27",
+      "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.5.3/sprintFont_v1.5.3.rar",
+      "whatsnew": "1. fixed a name attribute error when importing footprint from EasyEDA\n2. Compile a release package that supports Windows XP"
+    },
     {
       "version": "1.5.2",
       "build": "2022-10-22",

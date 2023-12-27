@@ -1,7 +1,7 @@
 # sprintFont manual
-sprintFont is a plugin for Sprint-Layout v6 2021 and newer version.   
+sprintFont is a plugin for Sprint-Layout v6 2022 and newer version.   
 
-for version: v1.5.2
+for version: v1.5.3
 
 
 
@@ -281,6 +281,12 @@ This function can convert ordinary tracks of various angles into rounded tracks,
 
 
 ## 4. Changelog
+
+
+
+### v1.5.3
+* fixed a name attribute error when importing footprint from EasyEDA
+* Compile a release package that supports Windows XP
 
 
 
