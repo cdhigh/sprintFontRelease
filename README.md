@@ -1,8 +1,6 @@
 # sprintFont manual
 sprintFont is a plugin for Sprint-Layout v6 2022 and newer version.   
 
-for version: v1.5.3
-
 
 
 ## 1. Features
@@ -281,7 +279,9 @@ This function can convert ordinary tracks of various angles into rounded tracks,
 
 
 ## 4. Changelog
-
+### v1.5.4
+* Add font preview functionality.
+* Display more error information when importing Kicad_mod files fails.
 
 
 ### v1.5.3
