@@ -3,9 +3,9 @@
   "history": [
     {
       "version": "1.5.4",
-      "build": "2024-03-20",
+      "build": "2024-03-23",
       "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.5.4/sprintFont_v1.5.4.rar",
-      "whatsnew": "1. Add font preview functionality.\n2. Display more error information when importing Kicad_mod files fails."
+      "whatsnew": "1. Supports Kicad footprint version 7/8\n2. Add font preview functionality.\n3. Display more error information when importing Kicad_mod files fails."
     },
     {
       "version": "1.5.3",
