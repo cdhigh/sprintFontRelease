@@ -285,6 +285,10 @@ This function can convert ordinary tracks of various angles into rounded tracks,
 
 
 ## 4. Changelog
+### v1.5.5
+* Supports teardrop feature for SMD pads (experimental).
+
+
 ### v1.5.4
 * Supports Kicad footprint version 7/8.
 * Add font preview functionality.
