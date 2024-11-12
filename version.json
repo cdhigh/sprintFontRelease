@@ -1,6 +1,12 @@
 {
-  "lastest": "1.5.5",
+  "lastest": "1.6",
   "history": [
+    {
+      "version": "1.6",
+      "build": "2024-11-12",
+      "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.6/sprintFont_v1.6.rar",
+      "whatsnew": "1. New feature: invert font background (negative image).\n2. Bugfix: layout issue when word-spacing and line-spacing have positive values."
+    },
     {
       "version": "1.5.5",
       "build": "2024-11-05",

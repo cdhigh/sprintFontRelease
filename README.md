@@ -285,6 +285,10 @@ This function can convert ordinary tracks of various angles into rounded tracks,
 
 
 ## 4. Changelog
+### v1.6
+* 1. New feature: invert font background (negative image).
+* 2. Bugfix: layout issue when word-spacing and line-spacing have positive values.
+
 ### v1.5.5
 * Supports teardrop feature for SMD pads (experimental).
 
@@ -300,28 +304,22 @@ This function can convert ordinary tracks of various angles into rounded tracks,
 * Compile a release package that supports Windows XP
 
 
-
 ### v1.5.2
 * Add name property for all elements (ready for Sprint-Layout 08.07.2022)
 * support user fonts in Windows10
 * fix render problem for kaiti_GB2312
 
 
-
-
 ### v1.5.1
 * Rounded-tracks has two distances, if the big one is not suitable, the small one will be applied
-
 
 
 ### v1.5
 * Convert tracks to Rounded-tracks
 
 
-
 ### v1.4
 * Added teardrop pads
-
 
 
 ### v1.3
@@ -330,10 +328,8 @@ This function can convert ordinary tracks of various angles into rounded tracks,
 * Some minor optimizations
 
 
-
 ### v1.2
 * Insert Qrcode
-
 
 
 ### v1.1
@@ -341,9 +337,5 @@ This function can convert ordinary tracks of various angles into rounded tracks,
 * Insert svg image
 
 
-
 ### v1.0
 * Insert text in other fonts into Sprint-Layout
-
-
-
