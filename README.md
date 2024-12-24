@@ -273,7 +273,7 @@ This function can convert ordinary tracks of various angles into rounded tracks,
 
 2. In addition to calling Sprint-Layout through plugin mode, it can also be executed independently. The "OK" button is disabled in independent mode. You can use the "Save As" button to save the generated symbol file to a text file. Then you can use **"Import: Text Design Format File"** menu item to import it.   
 
-3. The software supports both Chinese and English interfaces, automatically detecting the system language at startup. If manual switching is required, you can modify it in the config.json file ("language":"en"/"zh-ch").   
+3. The software supports both Chinese and English interfaces, automatically detecting the system language at startup. If manual switching is required, you can modify it in the config.json file ("language":"en/zh-ch/es/pt/fr/ru/tr").   
 
 4. If the plug-in cannot be loaded, please download and install the VC runtime library 2015/2017/2019/2022 (any one). If it still does not work, you may also need "Universal C Runtime for Windows". You can search it for links, or just use links below:    
 * [VC runtime x86](https://aka.ms/vs/17/release/vc_redist.x86.exe)
@@ -285,6 +285,9 @@ This function can convert ordinary tracks of various angles into rounded tracks,
 
 
 ## 4. Changelog
+### v1.6.1
+* Added automatic translations using AI, including French, Spanish, Portuguese, Russian, and Turkish.
+
 ### v1.6
 * 1. New feature: invert font background (negative image).
 * 2. Bugfix: layout issue when word-spacing and line-spacing have positive values.

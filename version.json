@@ -1,6 +1,12 @@
 {
-  "lastest": "1.6",
+  "lastest": "1.6.1",
   "history": [
+    {
+      "version": "1.6.1",
+      "build": "2024-12-24",
+      "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.6.1/sprintFont_v1.6.1.rar",
+      "whatsnew": "Added AI translations: French, Spanish, Portuguese, Russian, and Turkish."
+    },
     {
       "version": "1.6",
       "build": "2024-11-12",
