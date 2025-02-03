@@ -11,7 +11,7 @@ sprintFont is a plugin for Sprint-Layout v6 2022 and newer version.
 * Supports auto-routing
 * Add teardrop pads
 * Rounded-tracks feature
-
+* Differential pair length matching
 
 
 
@@ -267,6 +267,24 @@ This function can convert ordinary tracks of various angles into rounded tracks,
 
 
 
+### 2.8 Differential Pair Length Matching  
+In high-frequency circuits, maintaining equal lengths for differential pairs is crucial for signal integrity. This feature allows you to add serpentine traces to the shorter line of a differential pair to achieve length matching.  
+
+![wire_pair_trace](pic/wire_pair_trace.png)  
+
+
+#### 2.8.1 Basic Operation  
+1. Select the two differential traces in Sprint-Layout before launching this plugin.  
+2. Configure the parameters on the `WirePair` page, then click `Adjust` to open the length matching window.  
+3. In the length matching window, the selected traces are displayed. The red line represents the longest trace. Clicking on the green line adds serpentine curves at the clicked position. For single-sided, the curves are placed on the closest side to the mouse click, while double-sided are automatically positioned.  
+4. After adding serpentine traces, minor deviations may remain due to arc approximations using multiple segments. Use the `Deviation-` button to minimize the length difference automatically.  
+5. Click `Confirm` to exit the matching window, then click `OK` in the main dialog to return to Sprint-Layout.  
+
+![wire_pair_main](pic/wire_pair_main.png)  
+
+![wire_pair_adjusting](pic/wire_pair_adjusting.png)  
+
+
 
 ## 3. Others
 1. Sprint-Layout communicates with plugins by using temporary file. If no components are selected when launching a plugin, Sprint-Layout will export all components from the PCB to temporary file; otherwise, only the selected components will be exported.    
@@ -284,7 +302,16 @@ This function can convert ordinary tracks of various angles into rounded tracks,
 
 
 
+
+
+<a href="https://www.buymeacoffee.com/cdhigh" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
+
+
 ## 4. Changelog
+### v1.7
+* New feature: differential pair length matching
+
 ### v1.6.1
 * Added automatic translations using AI, including German, French, Spanish, Portuguese, Russian, and Turkish.
 
@@ -342,3 +369,9 @@ This function can convert ordinary tracks of various angles into rounded tracks,
 
 ### v1.0
 * Insert text in other fonts into Sprint-Layout
+
+
+
+
+<a href="https://www.buymeacoffee.com/cdhigh" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+

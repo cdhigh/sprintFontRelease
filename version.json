@@ -1,6 +1,12 @@
 {
-  "lastest": "1.6.1",
+  "lastest": "1.7",
   "history": [
+    {
+      "version": "1.7",
+      "build": "2025-02-03",
+      "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.7/sprintFont_v1.7.rar",
+      "whatsnew": "Added feature: Differential pair length matching"
+    },
     {
       "version": "1.6.1",
       "build": "2024-12-24",
