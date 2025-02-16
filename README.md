@@ -277,7 +277,8 @@ In high-frequency circuits, maintaining equal lengths for differential pairs is 
 1. Select the two differential traces in Sprint-Layout before launching this plugin.  
 2. Configure the parameters on the `WirePair` page, then click `Adjust` to open the length matching window.  
 3. In the length matching window, the selected traces are displayed. The red line represents the longest trace. Clicking on the green line adds serpentine curves at the clicked position. For single-sided, the curves are placed on the closest side to the mouse click, while double-sided are automatically positioned.  
-4. After adding serpentine traces, minor deviations may remain due to arc approximations using multiple segments. Use the `Deviation-` button to minimize the length difference automatically.  
+4. After adding serpentine traces, minor deviations may remain due to arc approximations using multiple segments. First, you can use the "Deviation-" button to try automating the reduction of deviation. If the result is unsatisfactory, you can also use the target skew parameter to adjust the deviation between the actual length and the expected length. The target skew can be either a positive or negative value.
+
 5. Click `Confirm` to exit the matching window, then click `OK` in the main dialog to return to Sprint-Layout.  
 
 ![wire_pair_main](pic/wire_pair_main.png)  
