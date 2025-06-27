@@ -4,7 +4,7 @@ sprintFont is a plugin for Sprint-Layout v6 2022 and newer version.
 
 
 ## 1. Features
-* Insert text in other fonts
+* Write text in other fonts
 * Import the footprint from Kicad/EasyEDA
 * Insert the SVG image
 * Insert Qrcode
@@ -20,19 +20,21 @@ sprintFont is a plugin for Sprint-Layout v6 2022 and newer version.
 
 
 ### 2.1 Install plugin
-1. Decompress sprintFont to a directory, open Sprint-Layout v6.0 2021 and newer version, click menu ["Extras" / "Define Plugin"]
+1. Download [the latest sprintFont package](https://github.com/cdhigh/sprintFontRelease/releases)    
+
+2. Decompress sprintFont to a directory, open Sprint-Layout v6.0 2021 and newer version, click menu ["Extras" / "Define Plugin"]
 
 ![define_plugin](pic/define_plugin.png)
 
 
 
-2. Locate the sprintFont.exe
+3. Locate the sprintFont.exe
 
 ![plugin_path](pic/plugin_path.png)
 
 
 
-3. Execute the plugin by clicking menu ["Extras" / "Run Plugin"]
+4. Execute the plugin by clicking menu ["Extras" / "Run Plugin"]
 
 ![define_plugin](pic/define_plugin.png)
 
@@ -40,7 +42,7 @@ sprintFont is a plugin for Sprint-Layout v6 2022 and newer version.
 
 
 
-### 2.2 Insert text in other fonts
+### 2.2 Write text in other fonts
 
 
 
