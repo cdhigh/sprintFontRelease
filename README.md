@@ -312,6 +312,10 @@ In high-frequency circuits, maintaining equal lengths for differential pairs is 
 
 
 ## 4. Changelog
+
+### v1.7.1
+* The configuration file is saved to the current user's AppData directory.
+
 ### v1.7
 * New feature: differential pair length matching
 
