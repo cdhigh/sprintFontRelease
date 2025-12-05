@@ -1,6 +1,12 @@
 {
-  "lastest": "1.7.1",
+  "lastest": "1.8",
   "history": [
+    {
+      "version": "1.8",
+      "build": "2025-12-05",
+      "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.8/sprintFont_v1.8.rar",
+      "whatsnew": "Added the ability to export to KiCad and OpenSCAD."
+    },
     {
       "version": "1.7.1",
       "build": "2025-11-09",

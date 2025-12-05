@@ -313,6 +313,9 @@ In high-frequency circuits, maintaining equal lengths for differential pairs is 
 
 ## 4. Changelog
 
+### v1.8
+* New feature: Export to Kicad and OpenSCAD.
+
 ### v1.7.1
 * The configuration file is saved to the current user's AppData directory.
 
