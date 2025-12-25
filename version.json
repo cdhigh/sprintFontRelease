@@ -1,6 +1,12 @@
 {
-  "lastest": "1.8",
+  "lastest": "1.8.1",
   "history": [
+    {
+      "version": "1.8.1",
+      "build": "2025-12-25",
+      "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.8.1/sprintFont_v1.8.1.rar",
+      "whatsnew": "1. Support to SVG\n2. Treat multiple end-to-end connected tracks as a single track when converting to round tracks.\n3. Bugfix: resolved the teardrop pads issue introduced in v1.8"
+    },
     {
       "version": "1.8",
       "build": "2025-12-05",

@@ -12,6 +12,7 @@ sprintFont is a plugin for Sprint-Layout v6 2022 and newer version.
 * Add teardrop pads
 * Rounded-tracks feature
 * Differential pair length matching
+* Export to Kicad/SVG/OpenSCAD
 
 
 
@@ -312,6 +313,11 @@ In high-frequency circuits, maintaining equal lengths for differential pairs is 
 
 
 ## 4. Changelog
+
+### v1.8.1
+* Added support for exporting to SVG.
+* Smarter round tracks: multiple end-to-end connected tracks can now be treated as a single one when adding round tracks.
+* Bug fix: resolved the "failed to add teardrop pads" issue introduced in v1.8.
 
 ### v1.8
 * New feature: Export to Kicad and OpenSCAD.
