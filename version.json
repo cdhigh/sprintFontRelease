@@ -5,7 +5,7 @@
       "version": "1.9",
       "build": "2026-07-13",
       "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.9/sprintFont_v1.9.rar",
-      "whatsnew": "1. Batch Edit\n2. KiCad netlist export\n3. 0.001 mm differential pair matching\n4. Auto backup (last 5)"
+      "whatsnew": "1. Batch Edit\n2. KiCad netlist export\n3. 0.001 mm differential pair matching\n4. Auto backup (last 5)\n5. Built-in symbol list & input history"
     },
     {
       "version": "1.8.1",

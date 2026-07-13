@@ -299,12 +299,15 @@ In high-frequency circuits, maintaining equal lengths for differential pairs is 
 
 4. The plugin automatically backs up the input files from the last five operations to the `Users\name\AppData\Roaming\sprintFont` directory. If an error occurs during processing, you can restore your previous work by importing the corresponding backup file directly into Sprint-Layout.
 
-5. If the plug-in cannot be loaded, please download and install the VC runtime library 2015/2017/2019/2022 (any one). If it still does not work, you may also need "Universal C Runtime for Windows". You can search it for links, or just use links below:    
+5. For entering special symbols, we recommend using one of the following fonts:
+DejaVu Sans, Noto Sans, Symbola, Segoe UI Symbol, Arial Unicode MS...
+
+6. If the plug-in cannot be loaded, please download and install the VC runtime library 2015/2017/2019/2022 (any one). If it still does not work, you may also need "Universal C Runtime for Windows". You can search it for links, or just use links below:    
 * [VC runtime x86](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 * [VC runtime x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 * [Universal C Runtime](https://support.microsoft.com/en-us/topic/update-for-universal-c-runtime-in-windows-c0514201-7fe6-95a3-b0a5-287930f3560c)
 
-6. About false positives of some antivirus softwares, since this program is developed using Python and then packaged into exe, this packaging mechanism may easily trigger false positives in some particularly sensitive antivirus software. If you have doubts, you can upload the file to [VirusTotal](https://www.virustotal.com/) or similar websites for virus scanning, or install Python yourself and directly execute the source code.    
+7. About false positives of some antivirus softwares, since this program is developed using Python and then packaged into exe, this packaging mechanism may easily trigger false positives in some particularly sensitive antivirus software. If you have doubts, you can upload the file to [VirusTotal](https://www.virustotal.com/) or similar websites for virus scanning, or install Python yourself and directly execute the source code.    
 
 
 
@@ -321,6 +324,7 @@ In high-frequency circuits, maintaining equal lengths for differential pairs is 
 * Added netlist support when exporting to KiCad.
 * Added precise differential pair length matching. With a single click, the length mismatch is automatically reduced to 0.001 mm.
 * Automatically keeps backup files (the latest 5 by default) in the configuration directory.
+* Added a built-in special character list and input history.
 
 ### v1.8.1
 * Added support for exporting to SVG.
