@@ -295,14 +295,16 @@ In high-frequency circuits, maintaining equal lengths for differential pairs is 
 
 2. In addition to calling Sprint-Layout through plugin mode, it can also be executed independently. The "OK" button is disabled in independent mode. You can use the "Save As" button to save the generated symbol file to a text file. Then you can use **"Import: Text Design Format File"** menu item to import it.   
 
-3. The software supports both Chinese and English interfaces, automatically detecting the system language at startup. If manual switching is required, you can modify it in the config.json file ("language":"en/zh-ch/de/es/pt/fr/ru/tr").   
+3. The plugin supports both Chinese and English interfaces, automatically detecting the system language at startup. If manual switching is required, you can modify it in the config.json file ("language":"en/zh-ch/de/es/pt/fr/ru/tr").   
 
-4. If the plug-in cannot be loaded, please download and install the VC runtime library 2015/2017/2019/2022 (any one). If it still does not work, you may also need "Universal C Runtime for Windows". You can search it for links, or just use links below:    
+4. The plugin automatically backs up the input files from the last five operations to the `Users\name\AppData\Roaming\sprintFont` directory. If an error occurs during processing, you can restore your previous work by importing the corresponding backup file directly into Sprint-Layout.
+
+5. If the plug-in cannot be loaded, please download and install the VC runtime library 2015/2017/2019/2022 (any one). If it still does not work, you may also need "Universal C Runtime for Windows". You can search it for links, or just use links below:    
 * [VC runtime x86](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 * [VC runtime x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 * [Universal C Runtime](https://support.microsoft.com/en-us/topic/update-for-universal-c-runtime-in-windows-c0514201-7fe6-95a3-b0a5-287930f3560c)
 
-5. About false positives of some antivirus softwares, since this program is developed using Python and then packaged into exe, this packaging mechanism may easily trigger false positives in some particularly sensitive antivirus software. If you have doubts, you can upload the file to [VirusTotal](https://www.virustotal.com/) or similar websites for virus scanning, or install Python yourself and directly execute the source code.    
+6. About false positives of some antivirus softwares, since this program is developed using Python and then packaged into exe, this packaging mechanism may easily trigger false positives in some particularly sensitive antivirus software. If you have doubts, you can upload the file to [VirusTotal](https://www.virustotal.com/) or similar websites for virus scanning, or install Python yourself and directly execute the source code.    
 
 
 
@@ -313,6 +315,12 @@ In high-frequency circuits, maintaining equal lengths for differential pairs is 
 
 
 ## 4. Changelog
+
+### v1.9
+* Added **Batch Edit**.
+* Added netlist support when exporting to KiCad.
+* Added precise differential pair length matching. With a single click, the length mismatch is automatically reduced to 0.001 mm.
+* Automatically keeps backup files (the latest 5 by default) in the configuration directory.
 
 ### v1.8.1
 * Added support for exporting to SVG.
