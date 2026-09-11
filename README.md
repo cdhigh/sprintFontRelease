@@ -12,7 +12,7 @@ sprintFont is a plugin for Sprint-Layout v6 2022 and newer version.
 * Add teardrop pads
 * Rounded-tracks feature
 * Differential pair length matching
-* Export to Kicad/SVG/OpenSCAD
+* Export to Kicad/EasyEDA/OpenSCAD/SVG/DXF
 
 
 
@@ -318,6 +318,9 @@ DejaVu Sans, Noto Sans, Symbola, Segoe UI Symbol, Arial Unicode MS...
 
 
 ## 4. Changelog
+
+### v1.10
+* Added support for exporting to DXF.
 
 ### v1.9
 * Added **Batch Edit**.

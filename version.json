@@ -1,6 +1,12 @@
 {
-  "lastest": "1.9",
+  "lastest": "1.10",
   "history": [
+    {
+      "version": "1.10",
+      "build": "2026-09-11",
+      "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.10/sprintFont_v1.10.rar",
+      "whatsnew": "Added support for exporting to DXF"
+    },
     {
       "version": "1.9",
       "build": "2026-07-13",
