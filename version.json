@@ -1,6 +1,12 @@
 {
-  "lastest": "1.10",
+  "lastest": "1.11",
   "history": [
+    {
+      "version": "1.11",
+      "build": "2026-10-13",
+      "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.11/sprintFont_v1.11.rar",
+      "whatsnew": "1. Added AI integration (MCP server) functionality.\n2. Bugfix: The text imported from EasyEDA was too small."
+    },
     {
       "version": "1.10",
       "build": "2026-09-11",

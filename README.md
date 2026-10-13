@@ -13,6 +13,7 @@ sprintFont is a plugin for Sprint-Layout v6 2022 and newer version.
 * Rounded-tracks feature
 * Differential pair length matching
 * Export to Kicad/EasyEDA/OpenSCAD/SVG/DXF
+* AI integration (MCP server)
 
 
 
@@ -289,6 +290,34 @@ In high-frequency circuits, maintaining equal lengths for differential pairs is 
 ![wire_pair_adjusting](pic/wire_pair_adjusting.png)  
 
 
+### 2.9 AI Integration (Model Context Protocol Server)
+
+sprintFont includes an experimental MCP server feature that allows AI to directly read and modify PCB data. The possible applications vary from person to person, and the results may not always be exactly what you expect.
+
+For example, you can provide the AI with an image of a component footprint with dimensions, and have the AI automatically draw the footprint for you.
+
+1. Popular local AI clients such as ChatGPT, Antigravity, Claude, Cursor, and ZCode support adding custom MCP servers. Please refer to the documentation of the AI client you are using for specific instructions.
+
+2. For example, with Antigravity, add the following entry to `C:\Users\Account\.gemini\config\mcp_config.json`:
+
+```json
+mcpServers {
+  ...,
+  "sprint-layout": {
+    "serverUrl": "http://127.0.0.1:5390/mcp"
+  }
+}
+```
+
+3. For example, with ZCode, go to the Settings menu, find **"New MCP Server"**, select **HTTP** as the server type, and enter the name and URL `http://127.0.0.1:5390/mcp`.
+
+4. Before using it, start sprintFont, click the gear icon in the bottom-right corner, and then click **"Start MCP Server"**. Keep this window open. You can then open your AI editor and start giving commands to sprintFont.
+
+**Note: Start the MCP server before opening the AI editor. Otherwise, the AI editor will not be able to discover or register the MCP server.**
+
+
+
+
 
 ## 3. Others
 1. Sprint-Layout communicates with plugins by using temporary file. If no components are selected when launching a plugin, Sprint-Layout will export all components from the PCB to temporary file; otherwise, only the selected components will be exported.    
@@ -318,6 +347,11 @@ DejaVu Sans, Noto Sans, Symbola, Segoe UI Symbol, Arial Unicode MS...
 
 
 ## 4. Changelog
+
+### v1.11
+* Added AI integration (MCP server) functionality.
+* Bugfix: The component reference text on footprints imported from EasyEDA was too small.
+
 
 ### v1.10
 * Added support for exporting to DXF.
