@@ -1,8 +1,10 @@
 # sprintFont manual
 sprintFont is a plugin for Sprint-Layout v6 2022 and newer version.   
-
-
-
+  
+  
+[Another plugin for Sprint-Layout](https://github.com/cdhigh/slfilter)
+  
+  
 ## 1. Features
 * Write text in other fonts
 * Import the footprint from Kicad/EasyEDA
