@@ -1,6 +1,12 @@
 {
-  "lastest": "1.11",
+  "lastest": "1.12",
   "history": [
+    {
+      "version": "1.12",
+      "build": "2026-11-13",
+      "url": "https://github.com/cdhigh/sprintFontRelease/releases/download/v1.12/sprintFont_v1.12.rar",
+      "whatsnew": "1. Added JLCPCB SMT file export.\n2. Bugfix: Fixed moving issues with some imported EasyEDA footprints."
+    },
     {
       "version": "1.11",
       "build": "2026-10-13",

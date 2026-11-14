@@ -350,6 +350,10 @@ DejaVu Sans, Noto Sans, Symbola, Segoe UI Symbol, Arial Unicode MS...
 
 ## 4. Changelog
 
+### v1.12
+* Added support for exporting JLCPCB SMT service files.
+* Bugfix: Fixed an issue where some EasyEDA footprints could not be moved after being imported.
+
 ### v1.11
 * Added AI integration (MCP server) functionality.
 * Bugfix: The component reference text on footprints imported from EasyEDA was too small.
